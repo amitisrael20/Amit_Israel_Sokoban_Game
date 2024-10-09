@@ -1,0 +1,57 @@
+body {
+    background-color:burlywood;
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.floor {
+    background-color: gray;
+}
+.wall {
+    background-color: brown;
+}
+.target {
+    background-color: blue;
+}
+.clock{
+    background-color: green;
+}
+.gold{
+    background-color: green;
+}
+.glue{
+    background-color: red;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+table{
+    padding-top: 5px;
+    margin: auto;
+}
+
+.modal{
+    display: none;
+    background-color: black;
+    width: 300px;
+    padding: 20px;
+    border: 5px solid white;
+
+    position: absolute;
+    top: 300px;
+    left: calc(50% - 175px);
+}
+
+.user-msg{
+    font-family:fantasy;
+
+}

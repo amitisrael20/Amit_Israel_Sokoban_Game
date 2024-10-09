@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body onkeyup="handleKey(event)" onload="initGame()">
+    <h1>Score: <span>100</span></h1>
+    <table>
+        <tbody class="board"></tbody>
+      </table>
+      <div class="modal">
+        <h2 class="user-msg"> You Won </h2>
+        <button class="btn-reset" onclick="resetGame()">Reset Game</button>
+      </div>
+    <script src="js/main.js"></script>
+    <script src="js/util.js"></script>
+</body>
+</html>
